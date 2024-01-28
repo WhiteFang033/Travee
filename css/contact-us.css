@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E0AAFF;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.nav{
+    height: 12svh;
+    width: 98svw;
+    background-color: #59189aad;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 2px 6px #3C096C;
+}
+
+.heading{
+    width: 10%;
+    font-size: 2.9em;
+    font-weight: 700;
+    margin: 20px;
+    position: relative;
+    left: 50px;
+}
+
+.optns{
+    width: 50%;
+}
+
+.optns ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optns ul li{
+    list-style-type: none;
+}
+
+.optns ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+
+.optns ul li a:hover{
+    background-color: white;
+    color: #C77DFF;
+}
+.contact-head{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 30px;
+}
+.content-container{
+    width: 95svw;
+    height: 80svh;
+    background-color: #9D4EDD;
+    border-radius: 10px;
+    margin: 30px auto;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.content{
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    margin: 10px 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;     
+}
+.content .team{
+    width: 40%;
+    margin: 2rem 0.5rem;
+    text-align: start;
+}
+
+.content ul li{
+    list-style: none;
+    width: 40%;
+    text-align: start;
+    padding: 0.5rem;
+    font-weight: 400;
+}

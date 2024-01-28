@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travee</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/weather.js" defer></script>
+    <script src="js/date.js" defer></script>
+  </head>
+  <body>
+    <div class="nav backblur10px">
+      <div class="heading"><div class="lang">Travee</div></div>
+      <div class="optns">
+        <ul>
+            <li><a href="#" class="lang">Navigate</a></li>
+            <li><a href="news.html" class="lang">News</a></li>
+            <li><a href="about.html" class="lang">About Us</a></li>
+            <li><a href="contact.html" class="lang">Contact Us</a></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container backblur10px">
+      <div class="date-time backblur10px flex-set">
+        <div id="salutations_id">Good Evening, Shashank!</div>
+      </div>
+      <div class="user-info backblur10px flex-set">
+        <div id="time_id"></div>
+        <div id="date_id"></div>
+      </div>
+
+      <div class="weather-info backblur10px flex-set">
+        <div class="temperature">
+          <img src="//cdn.weatherapi.com/weather/64x64/night/143.png" alt="" id="weather_icon"/>
+          <div id="actualTemp">Temperature - 10 deg</div>
+          <div id="feelslike">Feels Like 11 deg</div>
+        </div>
+        <div id="wind-speed">Wind Speed 30mph</div>
+        <div id="location">Chennai, TN</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+.backblur10px{
+    backdrop-filter: blur(10px);
+}
+.backblur20px{
+    backdrop-filter: blur(20px);
+}
+.flex-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
